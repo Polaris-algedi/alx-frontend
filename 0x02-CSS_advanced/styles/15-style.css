@@ -387,7 +387,9 @@ template {
   --section-title-color: var(--color-black);
 }
 /* Task 15. Add universal box-sizing*/
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 /* Task 1. Effortless transitions when scrolling */
