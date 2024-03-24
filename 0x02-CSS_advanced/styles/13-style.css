@@ -68,26 +68,7 @@ h6 {
 a {
   text-decoration: none;
 }
-/* Task 13. Pseudo Classes */
-a[href] {
-  /* Target anchors with href attribute (hyperlinks) */
-  color: var(--text-color);
-}
 
-a[href]:visited {
-  /* Visited links (previously visited) */
-  font-style: italic;
-}
-
-a[href]:hover {
-  /* Links on hover state */
-  text-decoration: underline;
-}
-
-a[href]:active {
-  /* Links in active state (clicked) */
-  background-color: var(--color-light-grey);
-}
 /* Task 2. Do you know your color values? */
 .visually-hidden {
   display: none;
@@ -114,4 +95,24 @@ a[href]:active {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+}
+/* Task 13. Pseudo Classes */
+a[href] {
+  /* Target anchors with href attribute (hyperlinks) */
+  color: var(--text-color);
+}
+
+a[href]:visited {
+  /* Visited links (previously visited) */
+  font-style: italic;
+}
+
+a[href]:hover {
+  /* Links on hover state */
+  text-decoration: underline;
+}
+
+a[href]:active {
+  /* Links in active state (clicked) */
+  background-color: var(--color-light-grey);
 }
